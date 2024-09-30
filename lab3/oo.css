@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ebee;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+}
+
+.fb-header{
+    background: linear-gradient(to right, rgb(84, 134, 203), #3b5998); 
+}
+
+.facebook-header {
+    color: white;
+    padding: 10px;
+    text-align: right;
+    position: relative;
+}
+
+.facebook-header h1 {
+    display: inline-block;
+    font-size: 60px;
+    color: skyblue;
+    margin: 0;
+    padding-right: 100px;
+}
+
+.facebook-header ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 100px 20px 0px;
+}
+
+.facebook-header ul li {
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.facebook-header .location {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-weight: bold;
+}
+
+.profile-title {
+    background-color: #3b5998;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    padding-left: 230px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.profile-title span{
+    text-align: right;
+    padding-left: 500px;
+}
+
+.sidebar {
+    background-color: #f7f7f7;
+    padding: 20px;
+    vertical-align: top;
+    width: 200px;
+}
+
+.search-input {
+    width: 80%;
+    padding: 5px;
+}
+
+.search-btn {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.sidebar-menu li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #3b5998;
+}
+
+.main-content {
+    padding: 20px;
+    background-color: white;
+}
+
+.inner-table {
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.inner-table th {
+    background-color: #3b5998;
+    color: white;
+    padding: 5px;
+    text-align: left;
+}
+
+.inner-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.inner-table p{
+    margin:10px;
+}
+
+.picture img {
+    aspect-ratio: 16/9;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border: 3px solid #3b5998;
+}
+
+.options {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.options li {
+    background-color: #e9ebee;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+}
