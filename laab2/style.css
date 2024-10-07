@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#82caff;
+}
+table{
+  /* height:100vh; */
+  width:100%;
+  background-color:#82caff;
+  box-sizing: content-box;
+}
+table, td {
+  /* border:1px solid blue; */
+	border-collapse: collapse;
+}
+th{
+  height:50px;
+  background-color:#151b54;
+}
+th a{
+  text-decoration: none;
+  color:aliceblue;
+  font-size:20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding:10px;
+}
+th a:hover{
+  transform: scale(1.5);
+  transition: 0.5s ease-in-out;
+}
+td, th {
+	padding: 3px;
+}
+h1{
+  justify-content: center;
+  text-align:center;
+  color:aliceblue;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+  color:aliceblue;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+td, a{
+  justify-content: center;
+  text-align: center;
+}
+td a i{
+  color:#fff;
+  font-size: 50px;
+}
+.section{
+  height:300px;
+}
+.contactmetom{
+  font-size: 45px;
+}
+td ul li{
+  color:aliceblue;
+  text-decoration: none;
+}
+td ul{
+  text-decoration: none;
+  margin:0;
+  list-style: none;
+}
+h3{
+  justify-content: center;
+  text-align:center;
+  color:aliceblue;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
