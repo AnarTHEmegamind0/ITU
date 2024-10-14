@@ -1,0 +1,149 @@
+/* Custom Jumbotron styles */
+.navbar{
+    background-color: #1A1F71;
+}
+.jumbotron {
+    background-color: #1A1F71;
+    color: white;
+    padding: 50px 25px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #f5f5f5;
+    padding: 25px 0;
+    margin-top: 50px;
+}
+
+/* Sidebar panel custom styling */
+.panel-heading {
+    background-color: #ff00ae !important;
+    color: white !important;
+}
+
+.btn-primary {
+    background-color: #ff00ae;
+    border-color: #ff00ae;
+}
+
+/* Centering form elements */
+form {
+    margin-top: 10px;
+}
+
+.alert-info {
+    margin-top: 30px;
+    background-color: #343a40;
+    color: white;
+}
+
+/* Adjust margins for the video section */
+.embed-responsive {
+    margin-bottom: 30px;
+}
+
+/* Media Queries */
+
+/* Small Devices - Phones (<576px) */
+@media (max-width: 575.98px) {
+    .jumbotron {
+        padding: 30px 15px;
+        text-align: center;
+    }
+
+    .panel {
+        margin-bottom: 20px;
+    }
+
+    .embed-responsive {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        padding: 15px 0;
+    }
+
+    .btn-lg {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .alert-info {
+        font-size: 14px;
+    }
+
+    form input {
+        font-size: 14px;
+    }
+
+    .panel-body button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+/* Medium Devices - Tablets (≥576px and <768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .jumbotron {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .panel-body button {
+        width: 45%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .panel-body button:last-child {
+        margin-right: 0;
+    }
+
+    .alert-info {
+        font-size: 15px;
+    }
+
+    .embed-responsive {
+        margin-bottom: 25px;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+}
+
+/* Large Devices - Desktops and Laptops (≥768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .jumbotron {
+        padding: 50px 30px;
+        text-align: left;
+    }
+
+    .panel-body button {
+        width: 40%;
+    }
+
+    .alert-info {
+        font-size: 16px;
+    }
+
+    .footer {
+        padding: 25px 0;
+    }
+}
+
+/* Extra Large Devices - Wide Desktops (≥992px) */
+@media (min-width: 992px) {
+    .jumbotron {
+        padding: 50px 50px;
+        text-align: left;
+    }
+
+    .panel-body button {
+        width: auto;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+}
