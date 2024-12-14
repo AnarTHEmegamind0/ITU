@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB 8</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="1.js" defer></script>
+    <script src="2.js" defer></script>
+    <script src="3.js" defer></script>
+    <script src="4.js" defer></script>
+    <script src="5.js" defer></script>
+</head>
+<body>
+    <h1>LAB 8 SHUU BAGSHAAAA..</h1>
+
+    <div class="buttons">
+        <button id="btn-1">1-р бодлого</button>
+        <button id="btn-2">2-р бодлого</button>
+        <button id="btn-3">3-р бодлого</button>
+        <button id="btn-4">4-р бодлого</button>
+        <button id="btn-5">5-р бодлого</button>
+    </div>
+
+
+
+    <script>
+        document.getElementById('btn-1').addEventListener('click', () => {
+            const number = prompt("Тоогоо оруулна уу:");
+            checkPalindromeFromSum(Number(number));
+        });
+
+        document.getElementById('btn-2').addEventListener('click', () => {
+            const distance = prompt("Зайг оруулна уу (км):");
+            const speed = new Speed();
+            const time = speed.timeToCatch(Number(distance));
+            alert(`Чоно туулайг гүйцэхэд ойролцоогоор ${Math.floor(time)} минут ${Math.floor((time % 1) * 60)} секунд шаардлагатай.`);
+        });
+
+        document.getElementById('btn-3').addEventListener('click', () => {
+            const apartment = new Apartment();
+            const number = prompt("Апартаментын дугаарыг оруулна уу:");
+            alert(apartment.doorChecker(Number(number)));
+        });
+
+        document.getElementById('btn-4').addEventListener('click', () => {
+            const numbers = getNumbersFromInput(); 
+            const result = arrayLCM(numbers); 
+            alert(`Хамгийн бага ерөнхий хуваагдагч (LCM): ${result}`);
+        });
+
+
+        document.getElementById('btn-5').addEventListener('click', () => {
+            const number = prompt("Тоо оруулна уу:");
+            calculateBasedOnTime(Number(number));
+        });
+    </script>
+</body>
+</html>

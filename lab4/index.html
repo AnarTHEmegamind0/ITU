@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CV - Anar</title>
+  <meta name="description" content="simple CV example created with HTML and CSS">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .col-md-8 {
+      font-family: Arial, sans-serif; /* Optional: set a font for the entire section */
+    }
+  
+    .column {
+      display: inline-block;
+      vertical-align: top; /* Align columns at the top */
+      width: 30%; /* Each column takes up 30% of the width */
+      margin-right: 3%; /* Space between columns */
+      box-sizing: border-box; /* Ensure padding and borders are included in the width */
+    }
+  
+    .column:last-child {
+      margin-right: 0; /* Remove right margin from the last column */
+    }
+  </style>
+  
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./img/zurag.jpeg" />
+        </div>
+        <h1>Anar Tuvshinjargal</h1>
+        <section>
+            <p>Hello! I am Anar Tuvshinjargal. A highly motivated Information Systems student at the <b>🇲🇳 National University of Mongolia</b>, seeking an opportunity to apply my knowledge and skills in a dynamic and challenging environment. I'm  focused, dedicated, hard-working and willing to learn.</p>
+            <a href="https://www.facebook.com/profile.php?id=100009951481956" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://github.com/AnarTHEmegamind0" target="_blank">
+                <i class="fab fa-github-alt"></i>
+            </a>
+            <a href="https://www.instagram.com/anarrraa_/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </section>
+    </header>
+<main>
+    <div class="row">
+        <div class="col-md-1">
+
+        </div>
+        <div class="col-md-10">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                            data-bs-target="#home-tab-pane" type="button" role="tab"
+                            aria-controls="home-tab-pane" aria-selected="true">
+                        Skills
+                    </button>
+                </li>
+            
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="details-tab" data-bs-toggle="tab"
+                            data-bs-target="#details-tab-pane" type="button" role="tab"
+                            aria-controls="details-tab-pane" aria-selected="false">
+                        Education
+                    </button>
+                </li>
+            
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="image-tab" data-bs-toggle="tab"
+                            data-bs-target="#image-tab-pane" type="button" role="tab"
+                            aria-controls="image-tab-pane" aria-selected="false">
+                        Languages
+                    </button>
+                </li>
+            
+            </ul>
+            
+            <div class="tab-content" id="myTabContent" >
+                <div class="tab-pane fade border p-3 show active" id="home-tab-pane" role="tabpanel"
+                     aria-labelledby="home-tab" tabindex="0">
+                    <section>
+                        <div class="row">
+                          <div class="col-md-8">
+                            <h3>Skills</h3>
+                            <div class="column">
+                              <h6>Good knowledge</h6>
+                              <ul>
+                                <li>HTML5</li>
+                                <li>CSS</li>x
+                                <li>Laravel</li>
+                                <li>SQL</li>
+                              </ul>
+                            </div>
+                            <div class='column'>
+                              <h6>Basic knowledge</h6>
+                              <ul>
+                                <li>C</li>
+                                <li>C++</li>
+                                <li>MongoDB</li>
+                                <li>React</li>
+                              </ul>
+                            </div>
+                            <div class="column">
+                              <h6>Other skills</h6>
+                              <ul>
+                                <li>Adaptability</li>
+                                <li>Communication</li>
+                                <li>Problem-solving</li>
+                                <li>Time management</li>
+                                <li>Team work</li>
+                                
+                              </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            
+                <div class="tab-pane fade border p-3" id="details-tab-pane" role="tabpanel"
+                     aria-labelledby="details-tab" tabindex="0">
+                    <section>
+                        <h3>Education</h3>
+                        <article>
+                          <div class='school'>
+                            <span>2015-2022</span> <strong>New Era International High School</strong>
+                          </div>
+                          <div class="descrition">
+                            High-School
+                          </div>
+                        </article>
+                        <article>
+                          <div class='school'>
+                            <span>2022-Current</span> <strong>National University of Mongolia</strong>
+                          </div>
+                          <div>
+                            Major: Information Systems
+                          </div>
+                        </article>
+                    </section>
+                </div>
+            
+                <div class="tab-pane fade border p-3" id="image-tab-pane" role="tabpanel"
+                     aria-labelledby="image-tab" tabindex="0">
+                    <section>
+                        <h3>Languages</h3>
+                        <article>
+                            <div>
+                                <p>🇲🇳 Mongolia - Native speaker</p>
+                                <p>🇬🇧 English - Advanced C1</p>
+                                <p>🇰🇷 Korean - Elementary / Intermediate - A2/B1</p>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+
+        </div>
+    </div>
+</main>
+<footer>
+    <h5>Created by: <a href="https://www.instagram.com/anarrraa_/">@anarrraa_</a></h5>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
