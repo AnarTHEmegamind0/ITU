@@ -120,7 +120,7 @@
     top: 50%;
     right: 10px;
     transform: translateY(-50%);
-    pointer-events: none; /* Ensure the icon doesn't interfere with input */
+    pointer-events: none; 
 }
 .header2 i{
     font-size: 16px;
@@ -129,7 +129,7 @@
 }
   
 .header2 .button .search-icon i {
-    color: #777; /* Adjust icon color */
+    color: #777; 
 }
 .header2 ul li .submenu{
     display:none;
@@ -140,7 +140,7 @@
 }
 .header2 ul li:hover .submenu{
     display:block;
-    padding:0px 20px;
+    padding:10px 20px;
 
 }
 .header2 ul li .submenu ul h3{
